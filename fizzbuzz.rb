@@ -1,11 +1,12 @@
 100.times do |i|
- if (i + 1) % 15 == 0
+a = i + 1
+ if a % 15 == 0
   puts "fizzbuzz"
- elsif (i + 1) % 3 == 0
+ elsif a % 3 == 0
   puts "fizz"
- elsif (i + 1) % 5 == 0
+ elsif a % 5 == 0
   puts "buzz"
  else
-  puts (i + 1)
+  puts a
  end
 end
